@@ -345,15 +345,22 @@ footer a:hover {
 
 .activities__item__box {
   width: 23%;
-  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 0 0 15px 0;
 }
 
+.activities__item__box__height__full {
+  height: 400px;
+}
+
 .activities__item__full {
   height: 100%;
+}
+
+.activities__item__box__height__half {
+  height: 400px;
 }
 
 .activities__item__half {
@@ -453,5 +460,9 @@ footer a:hover {
 
   .activities__item__box {
     width: 100%;
+  }
+
+  .activities__item__box__height__full {
+    height: 180px;
   }
 }
