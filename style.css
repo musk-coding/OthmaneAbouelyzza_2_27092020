@@ -19,6 +19,7 @@ ul {
 
 .navigation {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -305,8 +306,6 @@ footer {
 .footer__items {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  width: 70%;
 }
 
 .footer_item {
@@ -474,8 +473,16 @@ footer a:hover {
     height: 180px;
   }
 
+  .footer__items {
+    flex-direction: column;
+  }
+
   .footer_item {
-    width: 100%;
     margin: 20px 0 0 0;
+  }
+
+  .navigation__items {
+    margin-top: 25px;
+    width: 100%;
   }
 }
