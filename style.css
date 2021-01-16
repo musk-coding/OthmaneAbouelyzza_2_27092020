@@ -348,7 +348,7 @@ footer a:hover {
   flex-direction: column;
   justify-content: space-between;
   margin: 0 0 15px 0;
-  height: 400px;
+  height: 450px;
 }
 
 .single_activity_item {
@@ -357,15 +357,11 @@ footer a:hover {
   flex-direction: column;
   justify-content: space-between;
   margin: 0 0 15px 0;
-  height: 400px;
+  height: 450px;
 }
 
 .activities__item__full {
   height: 100%;
-}
-
-.half__activity__item {
-  height: 45%;
 }
 
 .activitites__image {
@@ -410,6 +406,22 @@ footer a:hover {
 .rounded__shadow {
   box-shadow: 2px 2px 10px #cccccc;
   border-radius: 20px;
+}
+
+#pomegues {
+  height: 55%;
+}
+
+#frioul {
+  height: 35%;
+}
+
+#delagarde {
+  height: 42%;
+}
+
+#longchamp {
+  height: 48%;
 }
 
 /* MEDIA QUERIES */
@@ -462,10 +474,6 @@ footer a:hover {
   .activities__item__box {
     width: 100%;
     height: 375px;
-  }
-
-  .half__activity__item {
-    height: 180px;
   }
 
   .single_activity_item {
