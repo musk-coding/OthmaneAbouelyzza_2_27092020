@@ -225,6 +225,10 @@ ul {
   margin: 15px 0 15px 0;
 }
 
+.results__item:hover {
+  box-shadow: 2px 2px 10px #0065fc;
+}
+
 .results__item__image {
   object-fit: cover;
   border-top-left-radius: 20px;
@@ -360,6 +364,10 @@ footer a:hover {
   height: 450px;
 }
 
+.single_activity_item:hover {
+  box-shadow: 2px 2px 10px #0065fc;
+}
+
 .activities__item__full {
   height: 100%;
 }
@@ -412,16 +420,32 @@ footer a:hover {
   height: 55%;
 }
 
+#pomegues:hover {
+  box-shadow: 2px 2px 10px #0065fc;
+}
+
 #frioul {
   height: 35%;
+}
+
+#frioul:hover {
+  box-shadow: 2px 2px 10px #0065fc;
 }
 
 #delagarde {
   height: 42%;
 }
 
+#delagarde:hover {
+  box-shadow: 2px 2px 10px #0065fc;
+}
+
 #longchamp {
   height: 48%;
+}
+
+#longchamp:hover {
+  box-shadow: 2px 2px 10px #0065fc;
 }
 
 .nostyle-link {
