@@ -424,6 +424,11 @@ footer a:hover {
   height: 48%;
 }
 
+.nostyle-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* MEDIA QUERIES */
 /* @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) { */
 
